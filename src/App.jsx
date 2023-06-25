@@ -1,7 +1,10 @@
+import Header from "./Components/Header/Header";
 
 function App() {
   return (
-    <span></span>
+    <div className="App">
+      <Header/>
+    </div>
   );
 }
 
