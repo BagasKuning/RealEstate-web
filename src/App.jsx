@@ -1,9 +1,15 @@
 import Header from "./Components/Header/Header";
+import Hero from "./Components/Hero/Hero";
+import './app.css'
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <div>
+        <div className="white-gradient"/>
+        <Header/>
+        <Hero/>
+      </div>
     </div>
   );
 }
