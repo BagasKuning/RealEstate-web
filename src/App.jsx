@@ -1,5 +1,7 @@
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
+import Companies from "./Components/Companies/Companies";
+import Residencies from "./Components/Residencies/Residencies";
 import './app.css'
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
         <Header/>
         <Hero/>
       </div>
+      <Companies/>
+      <Residencies/>
     </div>
   );
 }
