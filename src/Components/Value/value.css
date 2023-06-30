@@ -8,3 +8,36 @@
 .v-right{
     gap: 0.5rem;
 }
+
+.accordion{
+    margin-top: 2rem;
+    border: none;
+}
+.accordionItem{
+    background: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.accordionButton{
+    background-color: white;
+    padding: 1rem;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+}
+.accordionItem.expended{
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+.icon{
+    padding: 10px;
+    background-color: #eeeeff;
+    border-radius: 5px;
+}
+.icon svg{
+    fill: var();
+}
+.accordionButton .primaryText{
+    font-size: 1.1rem;
+}
