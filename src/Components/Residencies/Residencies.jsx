@@ -26,7 +26,7 @@ export default function Residencies() {
                                     <span style={{color: "orange"}}>$</span><span>{card.price}</span>
                                 </span>
 
-                                <span className='primaryText'>{card.name}</span>
+                                <span classNam  e='primaryText'>{card.name}</span>
                                 <span className='secondaryText'>{card.detail}</span>
                             </div>
                         </SwiperSlide>
