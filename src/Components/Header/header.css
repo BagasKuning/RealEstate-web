@@ -1,3 +1,17 @@
+.logo{
+    position: relative;
+    font-size: 27px;
+    font-style: italic;
+}
+.logo::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    width: 50%;
+    background-color: var(--primary);
+}
+
 .h-wrapper{
     background: var(--black);
     color: white;
