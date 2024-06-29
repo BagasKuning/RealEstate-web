@@ -6,7 +6,7 @@ export default function GetStarted() {
     <section className="g-wrapper">
         <div className="paddings innerWidth g-container">
             <div className="flexColCenter inner-container">
-                <span className='primaryText'>Get Started With Homizy</span>
+                <span className='primaryText'>Get Started With Rlestate</span>
                 <span className='secondaryText'>
                     Subscribe and find super attractive price quotes from us
                     <br />
